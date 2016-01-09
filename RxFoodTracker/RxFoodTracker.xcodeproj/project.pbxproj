@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B16CD2A11C40E89E003EBD5F /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16CD29D1C40E89E003EBD5F /* RxBlocking.framework */; };
+		B16CD2A21C40E89E003EBD5F /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16CD29E1C40E89E003EBD5F /* RxCocoa.framework */; };
+		B16CD2A31C40E89E003EBD5F /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16CD29F1C40E89E003EBD5F /* RxSwift.framework */; };
+		B16CD2A61C40EB64003EBD5F /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16CD2A01C40E89E003EBD5F /* RxTests.framework */; };
+		B16CD2A81C40ED45003EBD5F /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CD2A71C40ED45003EBD5F /* Meal.swift */; };
+		B16CD2AA1C40EEA8003EBD5F /* MealTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16CD2A91C40EEA8003EBD5F /* MealTests.swift */; };
 		B16DBE671C40E55F00C07035 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DBE661C40E55F00C07035 /* AppDelegate.swift */; };
-		B16DBE691C40E55F00C07035 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DBE681C40E55F00C07035 /* ViewController.swift */; };
+		B16DBE691C40E55F00C07035 /* AddMealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16DBE681C40E55F00C07035 /* AddMealViewController.swift */; };
 		B16DBE6C1C40E55F00C07035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16DBE6A1C40E55F00C07035 /* Main.storyboard */; };
 		B16DBE6E1C40E55F00C07035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16DBE6D1C40E55F00C07035 /* Assets.xcassets */; };
 		B16DBE711C40E55F00C07035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16DBE6F1C40E55F00C07035 /* LaunchScreen.storyboard */; };
@@ -26,9 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B16CD29D1C40E89E003EBD5F /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		B16CD29E1C40E89E003EBD5F /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		B16CD29F1C40E89E003EBD5F /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		B16CD2A01C40E89E003EBD5F /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTests.framework; path = Carthage/Build/iOS/RxTests.framework; sourceTree = "<group>"; };
+		B16CD2A71C40ED45003EBD5F /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		B16CD2A91C40EEA8003EBD5F /* MealTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTests.swift; sourceTree = "<group>"; };
 		B16DBE631C40E55F00C07035 /* RxFoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxFoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B16DBE661C40E55F00C07035 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B16DBE681C40E55F00C07035 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B16DBE681C40E55F00C07035 /* AddMealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealViewController.swift; sourceTree = "<group>"; };
 		B16DBE6B1C40E55F00C07035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B16DBE6D1C40E55F00C07035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16DBE701C40E55F00C07035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +55,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16CD2A11C40E89E003EBD5F /* RxBlocking.framework in Frameworks */,
+				B16CD2A21C40E89E003EBD5F /* RxCocoa.framework in Frameworks */,
+				B16CD2A31C40E89E003EBD5F /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16CD2A61C40EB64003EBD5F /* RxTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +75,10 @@
 		B16DBE5A1C40E55F00C07035 = {
 			isa = PBXGroup;
 			children = (
+				B16CD29D1C40E89E003EBD5F /* RxBlocking.framework */,
+				B16CD29E1C40E89E003EBD5F /* RxCocoa.framework */,
+				B16CD29F1C40E89E003EBD5F /* RxSwift.framework */,
+				B16CD2A01C40E89E003EBD5F /* RxTests.framework */,
 				B16DBE651C40E55F00C07035 /* RxFoodTracker */,
 				B16DBE7A1C40E55F00C07035 /* RxFoodTrackerTests */,
 				B16DBE641C40E55F00C07035 /* Products */,
@@ -78,8 +98,9 @@
 			isa = PBXGroup;
 			children = (
 				B16DBE661C40E55F00C07035 /* AppDelegate.swift */,
-				B16DBE681C40E55F00C07035 /* ViewController.swift */,
+				B16DBE681C40E55F00C07035 /* AddMealViewController.swift */,
 				B16DBE6A1C40E55F00C07035 /* Main.storyboard */,
+				B16CD2A71C40ED45003EBD5F /* Meal.swift */,
 				B16DBE6D1C40E55F00C07035 /* Assets.xcassets */,
 				B16DBE6F1C40E55F00C07035 /* LaunchScreen.storyboard */,
 				B16DBE721C40E55F00C07035 /* Info.plist */,
@@ -92,6 +113,7 @@
 			children = (
 				B16DBE7B1C40E55F00C07035 /* RxFoodTrackerTests.swift */,
 				B16DBE7D1C40E55F00C07035 /* Info.plist */,
+				B16CD2A91C40EEA8003EBD5F /* MealTests.swift */,
 			);
 			path = RxFoodTrackerTests;
 			sourceTree = "<group>";
@@ -106,6 +128,7 @@
 				B16DBE5F1C40E55F00C07035 /* Sources */,
 				B16DBE601C40E55F00C07035 /* Frameworks */,
 				B16DBE611C40E55F00C07035 /* Resources */,
+				B16CD2A51C40E8D9003EBD5F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -192,12 +215,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B16CD2A51C40E8D9003EBD5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B16DBE5F1C40E55F00C07035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B16DBE691C40E55F00C07035 /* ViewController.swift in Sources */,
+				B16DBE691C40E55F00C07035 /* AddMealViewController.swift in Sources */,
+				B16CD2A81C40ED45003EBD5F /* Meal.swift in Sources */,
 				B16DBE671C40E55F00C07035 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16CD2AA1C40EEA8003EBD5F /* MealTests.swift in Sources */,
 				B16DBE7C1C40E55F00C07035 /* RxFoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,6 +371,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxFoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.kono.RxFoodTracker;
@@ -338,6 +386,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxFoodTracker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.kono.RxFoodTracker;
@@ -349,6 +401,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxFoodTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.kono.RxFoodTrackerTests;
@@ -361,6 +417,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxFoodTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sh.kono.RxFoodTrackerTests;
@@ -388,6 +448,7 @@
 				B16DBE821C40E55F00C07035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B16DBE831C40E55F00C07035 /* Build configuration list for PBXNativeTarget "RxFoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +457,7 @@
 				B16DBE851C40E55F00C07035 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
